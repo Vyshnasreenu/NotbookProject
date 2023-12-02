@@ -1,0 +1,122 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+#nav{
+    height: 80px;
+    width: 100%;
+    background-color:black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+}
+#nav>article{
+      height: 80px;
+      width: 90%;
+      /* background-color: aqua; */
+      justify-content: center;
+      padding: 25px;    
+}
+#nav>article>a{
+       text-decoration: none;
+       font-size:large;
+       font-weight:200;
+       margin-right: 90%;
+       color: fuchsia;
+}
+#data{
+    padding: 150px;
+    text-align: center;
+    margin-left: 18%;
+}
+#data>.form{
+    /* border: 1px solid black; */
+    height: 400px; width: 50%;
+    padding: 30px;
+    background-color: cadetblue;
+    border-radius: 50%;
+    /* position: fixed; */
+}
+#data>.form:hover{
+    background-color: rgb(23, 239, 23);
+}
+#data>.form>label{
+   display: block;
+   font-size: 17px;
+   font-style:oblique;
+   font-weight: bold;
+}
+#data>.form>input{
+    height: 27px;
+    width: 55%;
+    border-radius: 5px;
+}
+#div{
+   color: blue;
+}
+ #sub{
+    height: 30px;
+    width: 80px;
+    border-radius: 5px;
+ }
+#sub:hover{
+    background-color:royalblue;
+ }
+ #data{
+    /* border: 1px solid black; */
+    height: 100vh; width: 100%;
+    top: 100px;
+    display: flex;
+    justify-content: space-between;
+ }
+ #data #profile{
+    /* border: 1px solid black; */
+    background-color: aqua;
+    color: red;
+    padding: 20px;
+    height: 220px; width: 30%;
+    border-radius: 30px;
+    /* display: inline-flex; */
+ } 
+ #data #profile:hover{
+    background-color:hotpink;
+ }
+ #profile span{
+    font-size: 20px;
+    color:green; 
+    padding-left: 10px;
+ }
+#update{
+   border: 1px solid black ;
+   height: 100vh; width: 100%;
+   top: 100px;
+   margin-bottom: 100px;
+   display: flex;
+}
+.modify{
+    border: 1px solid black;
+    border-radius: 7px;
+    width: 60px;
+   margin-left: 120px;
+   margin-bottom: 20px;
+}
+.modify>a{
+   text-decoration: none;
+}
+#delete{
+    height: 25px;
+    width: 60px;
+    border-radius: 5px;
+    color:white;
+    background-color: black;
+}
+#delete:hover{
+   background-color: red;
+}
+
+
+
+
+

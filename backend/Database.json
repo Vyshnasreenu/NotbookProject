@@ -1,0 +1,24 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "Name": "Welcome"
+    },
+    {
+      "Name": "sreenu",
+      "age": "23",
+      "company": "IBM",
+      "Sal": "543332",
+      "gender": "male",
+      "id": 2
+    },
+    {
+      "Name": "Rama",
+      "age": "25",
+      "company": "GOOGLE",
+      "Sal": "350000",
+      "gender": "male",
+      "id": 3
+    }
+  ]
+}

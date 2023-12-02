@@ -1,0 +1,38 @@
+{
+  "student": [
+    {
+      "id": 1,
+      "Name": "Welcome"
+    },
+    {
+      "Name": "sreenu",
+      "id": "234",
+      "quali": "Bcom"
+    },
+    {
+      "Name": "rama",
+      "id": "211",
+      "quali": "Btech"
+    },
+    {
+      "Name": "madhu",
+      "id": "201",
+      "quali": "Btech"
+    },
+    {
+      "Name": "priyanka",
+      "id": "203",
+      "quali": "BE"
+    },
+    {
+      "Name": "rajesh",
+      "id": "205",
+      "quali": "Bsc"
+    },
+    {
+      "Name": "radha",
+      "id": "209",
+      "quali": "Bcom"
+    }
+  ]
+}

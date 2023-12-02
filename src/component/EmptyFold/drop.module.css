@@ -1,0 +1,82 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+#lang{
+  display: flex;
+  justify-content: center;
+  padding: 50px;
+  position: relative;
+}
+#lang>label{
+    position: absolute;
+    font-weight: bold;
+    padding: 3px;
+    height: 40px; width: 40%;
+  /* border: 1px solid black; */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-shadow: 3px 3px 10px 6px rgba(0,0,0,0.06) ;
+}
+#lang>label:hover{
+    cursor: pointer;
+    background-color: bisque;
+}
+.check{
+    /* border: 1px solid black; */
+    height: 100px; width: 40%;
+    align-items: center;
+    margin: auto;
+    cursor: pointer;
+    box-shadow: 5px 5px 10px 6px rgba(10,0,0,0.06);
+}
+.check:hover{
+    background-color: beige;
+}
+.check>label{
+    cursor: pointer;
+    margin-left: 30px;
+   font-size: larger;
+}
+
+.check>label:hover{
+    cursor: pointer;
+    background-color: aliceblue;
+}
+input{
+    accent-color: green;
+}
+
+#lab{
+     display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 40px;
+    /* border: 1px solid black; */
+ }
+ #lab>label{
+    font-size: larger;
+    font-weight: bold;
+ }
+#select{
+      display: flex; 
+     justify-content: center; 
+}
+#select>select{
+     height: 50px; width: 40%;
+     cursor: pointer;
+     box-shadow: 3px 3px 10px 6px rgba(0,0,0,0.06);
+}
+.change{
+    display: flex;
+    justify-content: center; 
+     /* margin: auto; */
+}
+#but{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+}

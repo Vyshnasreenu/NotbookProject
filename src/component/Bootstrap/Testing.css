@@ -1,0 +1,12 @@
+#Con{
+    /* border: 1px solid black; */
+    /* margin-left: 50%/; */
+    /* margin-right: 50%; */
+    /* height:; */
+    margin: auto;
+    /* width: 100%; */
+} 
+#Con>.container{
+background-image: url(./Singup.png);
+    background-repeat: no-repeat;
+}
